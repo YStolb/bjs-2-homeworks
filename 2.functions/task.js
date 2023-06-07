@@ -18,10 +18,10 @@ function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   return roundedResult;
 }
 
-console.log(calculateMortgage(10, 0, 50000, 12)); // Output: 52749.53
-console.log(calculateMortgage(10, 1000, 50000, 12)); // Output: 51694.54
-console.log(calculateMortgage(10, 0, 20000, 24)); // Output: 22149.56
-console.log(calculateMortgage(10, 1000, 20000, 24)); // Output: 21042.09
-console.log(calculateMortgage(10, 20000, 20000, 24)); // Output: 0
-console.log(calculateMortgage(10, 0, 10000, 36)); // Output: 11616.19
-console.log(calculateMortgage(15, 0, 10000, 36)); // Output: 12479.52
+console.log(calculateTotalMortgage(10, 0, 50000, 12)); // Output: 52749.53
+console.log(calculateTotalMortgage(10, 1000, 50000, 12)); // Output: 51694.54
+console.log(calculateTotalMortgage(10, 0, 20000, 24)); // Output: 22149.56
+console.log(calculateTotalMortgage(10, 1000, 20000, 24)); // Output: 21042.09
+console.log(calculateTotalMortgage(10, 20000, 20000, 24)); // Output: 0
+console.log(calculateTotalMortgage(10, 0, 10000, 36)); // Output: 11616.19
+console.log(calculateTotalMortgage(15, 0, 10000, 36)); // Output: 12479.52
