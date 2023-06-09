@@ -4,9 +4,7 @@ function solveEquation(a, b, c) {
   let arr = [];
   let discriminant = b ** 2 - 4 * a * c;
 
-  if (discriminant < 0) {
-    // no roots
-  } else if (discriminant === 0) {
+  if (discriminant === 0) {
     // one root
     arr.push(-b / (2 * a));
   } else {
